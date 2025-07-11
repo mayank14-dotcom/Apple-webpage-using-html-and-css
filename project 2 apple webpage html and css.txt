@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>iPhone 15 Pro - Study Page</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .navbar {
+      width: 650px;
+      height: 50px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+    .navbar div {
+      font-size: 18px;
+    }
+    .navbar i {
+      color: white;
+      font-size: 20px;
+    }
+    #Home {
+      color: red;
+    }
+    #About,
+    #Service,
+    #Contact,
+    #Music {
+      color: white;
+    }
+    #main {
+      color: white;
+      font-size: 35px;
+      margin-top: 50px;
+      text-align: center;
+    }
+    #next {
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      border: 1px solid white;
+      text-decoration: none;
+      color: white;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .buttons a:hover {
+      background: white;
+      color: black;
+    }
+    #pic {
+      width: 650px;
+      height: 400px;
+      background-image: url('https://store.rsgsolutions.co.in/wp-content/uploads/2023/09/Apple-1555.jpg');
+      background-size: cover;
+      background-position: center;
+      margin: 40px auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <i class="fa-brands fa-apple"></i>
+    <div id="Home">Home</div>
+    <div id="About">About</div>
+    <div id="Service">Service</div>
+    <div id="Contact">Contacts</div>
+    <div id="Music">Music</div>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-print"></i>
+  </div>
+
+  <div id="main"><h1>iPhone 15 Pro</h1></div>
+  <div id="next"><h4>Titanium. So strong. So light. So Pro.</h4></div>
+
+  <div class="buttons">
+    <a href="#">Learn more</a>
+    <a href="#">Buy</a>
+  </div>
+
+  <div id="pic"></div>
+</body>
+</html>
